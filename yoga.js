@@ -416,21 +416,24 @@ if (reversed == null) { reversed = false; }
 	this.frame_1 = function() {
 		this.stop();
 	}
+	this.frame_2 = function() {
+		this.stop();
+	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1).call(this.frame_2).wait(1));
 
 	// Layer_1
 	this.instance = new lib.viparita();
 
 	this.instance_1 = new lib.viparitaBlack();
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance,p:{scaleX:1,scaleY:1,x:0,y:0}}]}).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance,p:{scaleX:1.1355,scaleY:1.1355,x:-14,y:-14}}]},1).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,187,203);
+p.nominalBounds = new cjs.Rectangle(-14,-14,212.4,230.5);
 
 
 (lib.uttanasana_1 = function(mode,startPosition,loop,reversed) {
@@ -451,21 +454,24 @@ if (reversed == null) { reversed = false; }
 	this.frame_1 = function() {
 		this.stop();
 	}
+	this.frame_2 = function() {
+		this.stop();
+	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1).call(this.frame_2).wait(1));
 
 	// Layer_1
 	this.instance = new lib.uttanasana();
 
 	this.instance_1 = new lib.uttanasanaBlack();
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance,p:{scaleX:1,scaleY:1,x:0,y:0}}]}).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance,p:{scaleX:1.1022,scaleY:1.1022,x:-10,y:-9}}]},1).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,188,182);
+p.nominalBounds = new cjs.Rectangle(-10,-9,207.2,200.6);
 
 
 (lib.url = function(mode,startPosition,loop,reversed) {
@@ -544,21 +550,24 @@ if (reversed == null) { reversed = false; }
 	this.frame_1 = function() {
 		this.stop();
 	}
+	this.frame_2 = function() {
+		this.stop();
+	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1).call(this.frame_2).wait(1));
 
 	// Layer_1
 	this.instance = new lib.savasana();
 
 	this.instance_1 = new lib.savasanaBlack();
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance,p:{scaleX:1,scaleY:1,x:0,y:0}}]}).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance,p:{scaleX:1.1113,scaleY:1.1113,x:-12,y:-10}}]},1).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,217,183);
+p.nominalBounds = new cjs.Rectangle(-12,-10,241.2,203.4);
 
 
 (lib.prasarita_1 = function(mode,startPosition,loop,reversed) {
@@ -579,21 +588,24 @@ if (reversed == null) { reversed = false; }
 	this.frame_1 = function() {
 		this.stop();
 	}
+	this.frame_2 = function() {
+		this.stop();
+	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1).call(this.frame_2).wait(1));
 
 	// Layer_1
 	this.instance = new lib.prasarita();
 
 	this.instance_1 = new lib.prasaritaBlack();
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance,p:{scaleX:1,scaleY:1,x:0,y:0}}]}).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance,p:{scaleX:1.0776,scaleY:1.0776,x:-7,y:-7}}]},1).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,196,182);
+p.nominalBounds = new cjs.Rectangle(-7,-7,211.2,196.2);
 
 
 (lib.pavana_1 = function(mode,startPosition,loop,reversed) {
@@ -614,21 +626,24 @@ if (reversed == null) { reversed = false; }
 	this.frame_1 = function() {
 		this.stop();
 	}
+	this.frame_2 = function() {
+		this.stop();
+	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1).call(this.frame_2).wait(1));
 
 	// Layer_1
 	this.instance = new lib.pavana();
 
 	this.instance_1 = new lib.pavanaBlack();
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance,p:{scaleX:1,scaleY:1,x:0,y:0}}]}).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance,p:{scaleX:1.0566,scaleY:1.0566,x:-6,y:-4}}]},1).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,188,183);
+p.nominalBounds = new cjs.Rectangle(-6,-4,198.7,193.4);
 
 
 (lib.matsyendra_1 = function(mode,startPosition,loop,reversed) {
@@ -649,21 +664,24 @@ if (reversed == null) { reversed = false; }
 	this.frame_1 = function() {
 		this.stop();
 	}
+	this.frame_2 = function() {
+		this.stop();
+	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1).call(this.frame_2).wait(1));
 
 	// Layer_1
 	this.instance = new lib.matsyendra();
 
 	this.instance_1 = new lib.matsyendraBlack();
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance,p:{scaleX:1,scaleY:1,x:0,y:0}}]}).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance,p:{scaleX:1.123,scaleY:1.123,x:-11,y:-11}}]},1).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,188,183);
+p.nominalBounds = new cjs.Rectangle(-11,-11,211.1,205.5);
 
 
 (lib.marjariasana_1 = function(mode,startPosition,loop,reversed) {
@@ -684,21 +702,24 @@ if (reversed == null) { reversed = false; }
 	this.frame_1 = function() {
 		this.stop();
 	}
+	this.frame_2 = function() {
+		this.stop();
+	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1).call(this.frame_2).wait(1));
 
 	// Layer_1
 	this.instance = new lib.marjariasana();
 
 	this.instance_1 = new lib.marjariasanaBlack();
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance,p:{scaleX:1,scaleY:1,x:0,y:0}}]}).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance,p:{scaleX:1.1135,scaleY:1.1135,x:-12,y:-10}}]},1).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,210,183);
+p.nominalBounds = new cjs.Rectangle(-12,-10,233.9,203.8);
 
 
 (lib.levelsText = function(mode,startPosition,loop,reversed) {
@@ -765,21 +786,24 @@ if (reversed == null) { reversed = false; }
 	this.frame_1 = function() {
 		this.stop();
 	}
+	this.frame_2 = function() {
+		this.stop();
+	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1).call(this.frame_2).wait(1));
 
 	// Layer_1
 	this.instance = new lib.janu();
 
 	this.instance_1 = new lib.januBlack();
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance,p:{scaleX:1,scaleY:1,x:0,y:0}}]}).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance,p:{scaleX:1.1299,scaleY:1.1299,x:-13,y:-12}}]},1).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,200,183);
+p.nominalBounds = new cjs.Rectangle(-13,-12,226,206.8);
 
 
 (lib.head_1 = function(mode,startPosition,loop,reversed) {
@@ -1102,21 +1126,24 @@ if (reversed == null) { reversed = false; }
 	this.frame_1 = function() {
 		this.stop();
 	}
+	this.frame_2 = function() {
+		this.stop();
+	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1).call(this.frame_2).wait(1));
 
 	// Layer_1
 	this.instance = new lib.bhujanga();
 
 	this.instance_1 = new lib.bhujangaBlack();
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance,p:{scaleX:1,scaleY:1,x:0,y:0}}]}).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance,p:{scaleX:1.1149,scaleY:1.1149,x:-13,y:-10}}]},1).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,230,172);
+p.nominalBounds = new cjs.Rectangle(-13,-10,256.4,191.8);
 
 
 (lib.bg_1 = function(mode,startPosition,loop,reversed) {
@@ -1270,21 +1297,24 @@ if (reversed == null) { reversed = false; }
 	this.frame_1 = function() {
 		this.stop();
 	}
+	this.frame_2 = function() {
+		this.stop();
+	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1).call(this.frame_2).wait(1));
 
 	// Layer_1
 	this.instance = new lib.balasana();
 
 	this.instance_1 = new lib.balasanaBlack();
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance,p:{scaleX:1,scaleY:1,x:0,y:0}}]}).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance,p:{scaleX:1.1105,scaleY:1.1105,x:-12,y:-10}}]},1).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,230,182);
+p.nominalBounds = new cjs.Rectangle(-12,-10,255.4,202.1);
 
 
 (lib.back_1 = function(mode,startPosition,loop,reversed) {
@@ -1930,7 +1960,7 @@ if (reversed == null) { reversed = false; }
 		function bhujangaOver() {
 			stage.cursor = "pointer";
 			grayAll();
-			self.bhujanga.gotoAndStop(0);
+			self.bhujanga.gotoAndStop(2);
 		
 			hideAllText();
 			self.bhujangaText.visible = true;
@@ -2025,9 +2055,8 @@ if (reversed == null) { reversed = false; }
 		//פונקציה - מעבר עכבר על תנוחת שחרור הרוח
 		function pavanaOver() {
 			stage.cursor = "pointer";
-		
 			grayAll();
-			self.pavana.gotoAndStop(0);
+			self.pavana.gotoAndStop(2);
 		
 			hideAllText();
 			self.pavanaText.visible = true;
@@ -2051,7 +2080,6 @@ if (reversed == null) { reversed = false; }
 			self.back.gotoAndStop(0);
 			self.advancedBtn.gotoAndStop(0);
 			self.beginnersBtn.gotoAndStop(0);
-		
 		}
 		
 		//פונקציה - לחיצת עכבר על תנוחת שחרור הרוח
@@ -2076,9 +2104,8 @@ if (reversed == null) { reversed = false; }
 		//פונקציה - מעבר עכבר על תנוחת פיתול
 		function matsyendraOver() {
 			stage.cursor = "pointer";
-		
-			grayAll();
-			self.matsyendra.gotoAndStop(0);
+			grayAll()
+			self.matsyendra.gotoAndStop(2);
 		
 			hideAllText();
 			self.matsyendraText.visible = true;
@@ -2126,9 +2153,8 @@ if (reversed == null) { reversed = false; }
 		//פונקציה - מעבר עכבר על תנוחת ראש לברך
 		function januOver() {
 			stage.cursor = "pointer";
-		
 			grayAll();
-			self.janu.gotoAndStop(0);
+			self.janu.gotoAndStop(2);
 		
 			hideAllText();
 			self.januText.visible = true;
@@ -2175,9 +2201,8 @@ if (reversed == null) { reversed = false; }
 		//פונקציה - מעבר עכבר על תנוחת חתול
 		function marjariasanaOver() {
 			stage.cursor = "pointer";
-		
 			grayAll();
-			self.marjariasana.gotoAndStop(0);
+			self.marjariasana.gotoAndStop(2);
 		
 			hideAllText();
 			self.marjariasanaText.visible = true;
@@ -2211,7 +2236,6 @@ if (reversed == null) { reversed = false; }
 		
 			self.aboutBtn.mouseEnabled = false;
 		
-		
 			stage.cursor = "auto";
 			self.cards.visible = true;
 			self.exitBtn.visible = true;
@@ -2225,9 +2249,8 @@ if (reversed == null) { reversed = false; }
 		//פונקציה - מעבר עכבר על תנוחת ילד
 		function balasanaOver() {
 			stage.cursor = "pointer";
-		
 			grayAll();
-			self.balasana.gotoAndPlay(0);
+			self.balasana.gotoAndStop(2);
 		
 			hideAllText();
 			self.balasanaText.visible = true;
@@ -2274,9 +2297,8 @@ if (reversed == null) { reversed = false; }
 		//פונקציה - מעבר עכבר על תנוחת כיפוף לפנים מעמידה
 		function uttanasanaOver() {
 			stage.cursor = "pointer";
-		
 			grayAll();
-			self.uttanasana.gotoAndStop(0);
+			self.uttanasana.gotoAndStop(2);
 		
 			hideAllText();
 			self.uttanasanaText.visible = true;
@@ -2310,7 +2332,6 @@ if (reversed == null) { reversed = false; }
 		
 			self.aboutBtn.mouseEnabled = false;
 		
-		
 			stage.cursor = "auto";
 			self.cards.visible = true;
 			self.exitBtn.visible = true;
@@ -2324,9 +2345,8 @@ if (reversed == null) { reversed = false; }
 		//פונקציה - מעבר עכבר על תנוחת רגליים על הקיר
 		function viparitaOver() {
 			stage.cursor = "pointer";
-		
 			grayAll();
-			self.viparita.gotoAndStop(0);
+			self.viparita.gotoAndStop(2);
 		
 			hideAllText();
 			self.viparitaText.visible = true;
@@ -2373,9 +2393,8 @@ if (reversed == null) { reversed = false; }
 		//פונקציה - מעבר עכבר על תנוחת הגוויה
 		function savasanaOver() {
 			stage.cursor = "pointer";
-		
 			grayAll();
-			self.savasana.gotoAndStop(0);
+			self.savasana.gotoAndStop(2);
 		
 			hideAllText();
 			self.savasanaText.visible = true;
@@ -2422,9 +2441,8 @@ if (reversed == null) { reversed = false; }
 		//פונקציה - מעבר עכבר על תנוחת כיפוף קדימה בפישוק רגליים
 		function prasaritaOver() {
 			stage.cursor = "pointer";
-		
 			grayAll();
-			self.prasarita.gotoAndStop(0);
+			self.prasarita.gotoAndStop(2);
 		
 			hideAllText();
 			self.prasaritaText.visible = true;
@@ -2476,12 +2494,12 @@ if (reversed == null) { reversed = false; }
 			self.back.gotoAndStop(1);
 		
 			grayAll();
-			self.janu.gotoAndStop(0);
-			self.marjariasana.gotoAndStop(0);
-			self.balasana.gotoAndStop(0);
-			self.viparita.gotoAndStop(0);
-			self.savasana.gotoAndStop(0);
-			self.prasarita.gotoAndStop(0);
+			self.janu.gotoAndStop(2);
+			self.marjariasana.gotoAndStop(2);
+			self.balasana.gotoAndStop(2);
+			self.viparita.gotoAndStop(2);
+			self.savasana.gotoAndStop(2);
+			self.prasarita.gotoAndStop(2);
 		
 			hideAllText();
 			self.januText.visible = true;
@@ -2551,12 +2569,12 @@ if (reversed == null) { reversed = false; }
 		
 				grayAll();
 		
-				self.janu.gotoAndStop(0);
-				self.marjariasana.gotoAndStop(0);
-				self.balasana.gotoAndStop(0);
-				self.viparita.gotoAndStop(0);
-				self.savasana.gotoAndStop(0);
-				self.prasarita.gotoAndStop(0);
+				self.janu.gotoAndStop(2);
+				self.marjariasana.gotoAndStop(2);
+				self.balasana.gotoAndStop(2);
+				self.viparita.gotoAndStop(2);
+				self.savasana.gotoAndStop(2);
+				self.prasarita.gotoAndStop(2);
 		
 				hideAllText();
 				self.januText.visible = true;
@@ -2617,11 +2635,11 @@ if (reversed == null) { reversed = false; }
 			self.back.gotoAndStop(1);
 		
 			grayAll();
-			self.bhujanga.gotoAndStop(0);
-			self.pavana.gotoAndStop(0);
-			self.matsyendra.gotoAndStop(0);
-			self.janu.gotoAndStop(0);
-			self.uttanasana.gotoAndStop(0);
+			self.bhujanga.gotoAndStop(2);
+			self.pavana.gotoAndStop(2);
+			self.matsyendra.gotoAndStop(2);
+			self.janu.gotoAndStop(2);
+			self.uttanasana.gotoAndStop(2);
 		
 			hideAllText();
 			self.bhujangaText.visible = true;
@@ -2669,11 +2687,11 @@ if (reversed == null) { reversed = false; }
 				self.back.gotoAndStop(1);
 				grayAll()
 		
-				self.bhujanga.gotoAndStop(0);
-				self.pavana.gotoAndStop(0);
-				self.matsyendra.gotoAndStop(0);
-				self.janu.gotoAndStop(0);
-				self.uttanasana.gotoAndStop(0);
+				self.bhujanga.gotoAndStop(2);
+				self.pavana.gotoAndStop(2);
+				self.matsyendra.gotoAndStop(2);
+				self.janu.gotoAndStop(2);
+				self.uttanasana.gotoAndStop(2);
 		
 				hideAllText();
 				self.bhujangaText.visible = true;
@@ -2729,13 +2747,13 @@ if (reversed == null) { reversed = false; }
 			self.belly.gotoAndStop(1);
 		
 			grayAll();
-			self.bhujanga.gotoAndStop(0);
-			self.matsyendra.gotoAndStop(0);
-			self.marjariasana.gotoAndStop(0);
-			self.balasana.gotoAndStop(0);
-			self.uttanasana.gotoAndStop(0);
-			self.viparita.gotoAndStop(0);
-			self.prasarita.gotoAndStop(0);
+			self.bhujanga.gotoAndStop(2);
+			self.matsyendra.gotoAndStop(2);
+			self.marjariasana.gotoAndStop(2);
+			self.balasana.gotoAndStop(2);
+			self.uttanasana.gotoAndStop(2);
+			self.viparita.gotoAndStop(2);
+			self.prasarita.gotoAndStop(2);
 		
 			hideAllText();
 			self.bhujangaText.visible = true;
@@ -2783,13 +2801,13 @@ if (reversed == null) { reversed = false; }
 				self.belly.gotoAndStop(1);
 		
 				grayAll();
-				self.bhujanga.gotoAndStop(0);
-				self.matsyendra.gotoAndStop(0);
-				self.marjariasana.gotoAndStop(0);
-				self.balasana.gotoAndStop(0);
-				self.uttanasana.gotoAndStop(0);
-				self.viparita.gotoAndStop(0);
-				self.prasarita.gotoAndStop(0);
+				self.bhujanga.gotoAndStop(2);
+				self.matsyendra.gotoAndStop(2);
+				self.marjariasana.gotoAndStop(2);
+				self.balasana.gotoAndStop(2);
+				self.uttanasana.gotoAndStop(2);
+				self.viparita.gotoAndStop(2);
+				self.prasarita.gotoAndStop(2);
 		
 				hideAllText();
 				self.bhujangaText.visible = true;
@@ -2826,7 +2844,7 @@ if (reversed == null) { reversed = false; }
 				self.advancedBtn.mouseEnabled = true;
 				self.aboutBtn.mouseEnabled = true;
 		
-				self.yogaText.visible = truetr;
+				self.yogaText.visible = true;
 				self.levelsText.visible = true;
 				self.arrow1.visible = true;
 				self.arrowSmall.visible = true;
@@ -2843,13 +2861,14 @@ if (reversed == null) { reversed = false; }
 			stage.cursor = "pointer";
 			self.beginnersBtn.gotoAndStop(2);
 			self.advancedBtn.gotoAndStop(1);
-			self.beginnersBtn.gotoAndStop(2);
 		
-			self.advancedBtn.gotoAndStop(1);
-			self.matsyendra.gotoAndStop(1);
-			self.janu.gotoAndStop(1);
-			self.uttanasana.gotoAndStop(1);
-			self.prasarita.gotoAndStop(1);
+			grayAll();
+			self.bhujanga.gotoAndStop(2);
+			self.pavana.gotoAndStop(2);
+			self.marjariasana.gotoAndStop(2);
+			self.balasana.gotoAndStop(2);
+			self.viparita.gotoAndStop(2);
+			self.savasana.gotoAndStop(2);
 		
 			self.bhujangaText.visible = true;
 			self.pavanaText.visible = true;
@@ -2890,10 +2909,14 @@ if (reversed == null) { reversed = false; }
 		
 				self.beginnersBtn.gotoAndStop(2);
 				self.advancedBtn.gotoAndStop(1);
-				self.matsyendra.gotoAndStop(1);
-				self.janu.gotoAndStop(1);
-				self.uttanasana.gotoAndStop(1);
-				self.prasarita.gotoAndStop(1);
+		
+				grayAll();
+				self.bhujanga.gotoAndStop(2);
+				self.pavana.gotoAndStop(2);
+				self.marjariasana.gotoAndStop(2);
+				self.balasana.gotoAndStop(2);
+				self.viparita.gotoAndStop(2);
+				self.savasana.gotoAndStop(2);
 		
 				self.matsyendra.mouseEnabled = false;
 				self.janu.mouseEnabled = false;
@@ -2959,12 +2982,11 @@ if (reversed == null) { reversed = false; }
 			self.advancedBtn.gotoAndStop(2);
 			self.beginnersBtn.gotoAndStop(1);
 		
-			self.bhujanga.gotoAndStop(1);
-			self.pavana.gotoAndStop(1);
-			self.marjariasana.gotoAndStop(1);
-			self.balasana.gotoAndStop(1);
-			self.viparita.gotoAndStop(1);
-			self.savasana.gotoAndStop(1);
+			grayAll();
+			self.matsyendra.gotoAndStop(2);
+			self.janu.gotoAndStop(2);
+			self.uttanasana.gotoAndStop(2);
+			self.prasarita.gotoAndStop(2);
 		
 			self.matsyendraText.visible = true;
 			self.januText.visible = true;
@@ -2998,16 +3020,14 @@ if (reversed == null) { reversed = false; }
 				self.levelsText.levelsText.text = "לחצו על הרמה שנבחרה, לחזרה למצב הקודם";
 				self.levelsText.gotoAndPlay(1);
 		
-		
 				self.advancedBtn.gotoAndStop(2);
 				self.beginnersBtn.gotoAndStop(1);
 		
-				self.bhujanga.gotoAndStop(1);
-				self.pavana.gotoAndStop(1);
-				self.marjariasana.gotoAndStop(1);
-				self.balasana.gotoAndStop(1);
-				self.viparita.gotoAndStop(1);
-				self.savasana.gotoAndStop(1);
+				grayAll();
+				self.matsyendra.gotoAndStop(2);
+				self.janu.gotoAndStop(2);
+				self.uttanasana.gotoAndStop(2);
+				self.prasarita.gotoAndStop(2);
 		
 				self.bhujanga.mouseEnabled = false;
 				self.pavana.mouseEnabled = false;
@@ -3098,6 +3118,9 @@ if (reversed == null) { reversed = false; }
 			self.about.visible = true;
 			self.exitBtn2.visible = true;
 		
+			self.aboutBtn.removeEventListener("mouseover", aboutBtnOver);
+			self.aboutBtn.removeEventListener("mouseout", aboutBtnOut);
+		
 			self.levelsH.visible = false;
 			self.beginnersBtn.visible = false;
 			self.advancedBtn.visible = false;
@@ -3116,6 +3139,9 @@ if (reversed == null) { reversed = false; }
 		//פונקציה - לחיצה על איקס סוגר כרטיסיית אודות
 		function exitBtn2Click() {
 			addListeners();
+			
+			self.aboutBtn.addEventListener("mouseover", aboutBtnOver);
+			self.aboutBtn.addEventListener("mouseout", aboutBtnOut);
 		
 			self.about.visible = false;
 			self.exitBtn2.visible = false;
@@ -3151,19 +3177,19 @@ if (reversed == null) { reversed = false; }
 	// Layer_1
 	this.exitBtn2 = new lib.exitBtn();
 	this.exitBtn2.name = "exitBtn2";
-	this.exitBtn2.setTransform(282.9,140.85,1.0996,1.0996,0,0,0,22.9,20.2);
+	this.exitBtn2.setTransform(298.15,138.75,1.0996,1.0996,0,0,0,22.9,20.2);
 
 	this.about = new lib.about();
 	this.about.name = "about";
-	this.about.setTransform(634.95,374.75,1.0996,1.0996,0,0,0,671.6,74.8);
+	this.about.setTransform(650.2,372.65,1.0996,1.0996,0,0,0,671.6,74.8);
 
 	this.exitBtn = new lib.exitBtn();
 	this.exitBtn.name = "exitBtn";
-	this.exitBtn.setTransform(257.1,122.95,1,1,0,0,0,22.8,20.2);
+	this.exitBtn.setTransform(269.8,124.3,1,1,0,0,0,22.8,20.2);
 
 	this.cards = new lib.cards_1();
 	this.cards.name = "cards";
-	this.cards.setTransform(640.4,364.9,1.0046,1.0046,0,0,0,470.2,296.2);
+	this.cards.setTransform(653.1,366.25,1.0046,1.0046,0,0,0,470.2,296.2);
 
 	this.yogaText = new cjs.Text("עברו/לחצו על אחת מהתנוחות", "normal 500 17px 'Rubik'", "#74322C");
 	this.yogaText.name = "yogaText";
@@ -3216,13 +3242,13 @@ if (reversed == null) { reversed = false; }
 	this.body.name = "body";
 	this.body.setTransform(634.7,397.9,1,1,0,0,0,83,280.9);
 
-	this.pavanaText = new cjs.Text("שחרור הרוח", "normal 500 20px 'Rubik'", "#75322D");
+	this.pavanaText = new cjs.Text("שחרור הרוח", "normal 500 21px 'Rubik'", "#75322D");
 	this.pavanaText.name = "pavanaText";
 	this.pavanaText.textAlign = "center";
-	this.pavanaText.lineHeight = 26;
-	this.pavanaText.lineWidth = 110;
+	this.pavanaText.lineHeight = 27;
+	this.pavanaText.lineWidth = 112;
 	this.pavanaText.parent = this;
-	this.pavanaText.setTransform(975.35,323.5);
+	this.pavanaText.setTransform(981.05,328.7);
 	if(!lib.properties.webfonts['Rubik']) {
 		lib.webFontTxtInst['Rubik'] = lib.webFontTxtInst['Rubik'] || [];
 		lib.webFontTxtInst['Rubik'].push(this.pavanaText);
@@ -3232,109 +3258,109 @@ if (reversed == null) { reversed = false; }
 	this.arrow2.name = "arrow2";
 	this.arrow2.setTransform(759.25,238.6,1.7736,1.2347,-22.7688,0,0,16.3,25.9);
 
-	this.prasaritaText = new cjs.Text("כיפוף קדימה בפישוק רגליים", "normal 500 20px 'Rubik'", "#75322D");
+	this.prasaritaText = new cjs.Text("כיפוף קדימה בפישוק רגליים", "normal 500 21px 'Rubik'", "#75322D");
 	this.prasaritaText.name = "prasaritaText";
 	this.prasaritaText.textAlign = "center";
-	this.prasaritaText.lineHeight = 26;
-	this.prasaritaText.lineWidth = 231;
+	this.prasaritaText.lineHeight = 27;
+	this.prasaritaText.lineWidth = 255;
 	this.prasaritaText.parent = this;
-	this.prasaritaText.setTransform(386.1905,209.5,0.9033,0.9033);
+	this.prasaritaText.setTransform(394.5842,209.8,0.9033,0.9033);
 	if(!lib.properties.webfonts['Rubik']) {
 		lib.webFontTxtInst['Rubik'] = lib.webFontTxtInst['Rubik'] || [];
 		lib.webFontTxtInst['Rubik'].push(this.prasaritaText);
 	}
 
-	this.savasanaText = new cjs.Text("הגוויה", "normal 500 20px 'Rubik'", "#75322D");
+	this.savasanaText = new cjs.Text("הגוויה", "normal 500 21px 'Rubik'", "#75322D");
 	this.savasanaText.name = "savasanaText";
 	this.savasanaText.textAlign = "center";
-	this.savasanaText.lineHeight = 26;
+	this.savasanaText.lineHeight = 27;
 	this.savasanaText.lineWidth = 58;
 	this.savasanaText.parent = this;
-	this.savasanaText.setTransform(270.1172,323.3,0.9033,0.9033);
+	this.savasanaText.setTransform(274.6672,328.5,0.9033,0.9033);
 	if(!lib.properties.webfonts['Rubik']) {
 		lib.webFontTxtInst['Rubik'] = lib.webFontTxtInst['Rubik'] || [];
 		lib.webFontTxtInst['Rubik'].push(this.savasanaText);
 	}
 
-	this.viparitaText = new cjs.Text("רגליים על הקיר", "normal 500 20px 'Rubik'", "#75322D");
+	this.viparitaText = new cjs.Text("רגליים על הקיר", "normal 500 21px 'Rubik'", "#75322D");
 	this.viparitaText.name = "viparitaText";
 	this.viparitaText.textAlign = "center";
-	this.viparitaText.lineHeight = 26;
-	this.viparitaText.lineWidth = 134;
+	this.viparitaText.lineHeight = 27;
+	this.viparitaText.lineWidth = 141;
 	this.viparitaText.parent = this;
-	this.viparitaText.setTransform(204.039,440.45,0.9033,0.9033);
+	this.viparitaText.setTransform(203.1483,445.65,0.9033,0.9033);
 	if(!lib.properties.webfonts['Rubik']) {
 		lib.webFontTxtInst['Rubik'] = lib.webFontTxtInst['Rubik'] || [];
 		lib.webFontTxtInst['Rubik'].push(this.viparitaText);
 	}
 
-	this.uttanasanaText = new cjs.Text("כיפוף לפנים מעמידה", "normal 500 20px 'Rubik'", "#75322D");
+	this.uttanasanaText = new cjs.Text("כיפוף לפנים מעמידה", "normal 500 21px 'Rubik'", "#75322D");
 	this.uttanasanaText.name = "uttanasanaText";
 	this.uttanasanaText.textAlign = "center";
-	this.uttanasanaText.lineHeight = 26;
-	this.uttanasanaText.lineWidth = 173;
+	this.uttanasanaText.lineHeight = 27;
+	this.uttanasanaText.lineWidth = 186;
 	this.uttanasanaText.parent = this;
-	this.uttanasanaText.setTransform(280.6733,565.75,0.9033,0.9033);
+	this.uttanasanaText.setTransform(280.9579,570.95,0.9033,0.9033);
 	if(!lib.properties.webfonts['Rubik']) {
 		lib.webFontTxtInst['Rubik'] = lib.webFontTxtInst['Rubik'] || [];
 		lib.webFontTxtInst['Rubik'].push(this.uttanasanaText);
 	}
 
-	this.balasanaText = new cjs.Text("ילד", "normal 500 20px 'Rubik'", "#75322D");
+	this.balasanaText = new cjs.Text("ילד", "normal 500 21px 'Rubik'", "#75322D");
 	this.balasanaText.name = "balasanaText";
 	this.balasanaText.textAlign = "center";
-	this.balasanaText.lineHeight = 26;
-	this.balasanaText.lineWidth = 29;
+	this.balasanaText.lineHeight = 27;
+	this.balasanaText.lineWidth = 30;
 	this.balasanaText.parent = this;
-	this.balasanaText.setTransform(386.65,680.65,0.9033,0.9033);
+	this.balasanaText.setTransform(386.3984,684.25,0.9033,0.9033);
 	if(!lib.properties.webfonts['Rubik']) {
 		lib.webFontTxtInst['Rubik'] = lib.webFontTxtInst['Rubik'] || [];
 		lib.webFontTxtInst['Rubik'].push(this.balasanaText);
 	}
 
-	this.marjariasanaText = new cjs.Text("חתול", "normal 500 20px 'Rubik'", "#75322D");
+	this.marjariasanaText = new cjs.Text("חתול", "normal 500 21px 'Rubik'", "#75322D");
 	this.marjariasanaText.name = "marjariasanaText";
 	this.marjariasanaText.textAlign = "center";
-	this.marjariasanaText.lineHeight = 26;
+	this.marjariasanaText.lineHeight = 27;
 	this.marjariasanaText.lineWidth = 51;
 	this.marjariasanaText.parent = this;
-	this.marjariasanaText.setTransform(868.15,680,0.9033,0.9033);
+	this.marjariasanaText.setTransform(867.5,683.6,0.9033,0.9033);
 	if(!lib.properties.webfonts['Rubik']) {
 		lib.webFontTxtInst['Rubik'] = lib.webFontTxtInst['Rubik'] || [];
 		lib.webFontTxtInst['Rubik'].push(this.marjariasanaText);
 	}
 
-	this.januText = new cjs.Text("ראש לברך", "normal 500 20px 'Rubik'", "#75322D");
+	this.januText = new cjs.Text("ראש לברך", "normal 500 21px 'Rubik'", "#75322D");
 	this.januText.name = "januText";
 	this.januText.textAlign = "center";
-	this.januText.lineHeight = 26;
-	this.januText.lineWidth = 88;
+	this.januText.lineHeight = 27;
+	this.januText.lineWidth = 96;
 	this.januText.parent = this;
-	this.januText.setTransform(980.8674,563.25,0.9033,0.9033);
+	this.januText.setTransform(979.8411,570.4,0.9033,0.9033);
 	if(!lib.properties.webfonts['Rubik']) {
 		lib.webFontTxtInst['Rubik'] = lib.webFontTxtInst['Rubik'] || [];
 		lib.webFontTxtInst['Rubik'].push(this.januText);
 	}
 
-	this.matsyendraText = new cjs.Text("פיתול", "normal 500 20px 'Rubik'", "#75322D");
+	this.matsyendraText = new cjs.Text("פיתול", "normal 500 21px 'Rubik'", "#75322D");
 	this.matsyendraText.name = "matsyendraText";
 	this.matsyendraText.textAlign = "center";
-	this.matsyendraText.lineHeight = 26;
-	this.matsyendraText.lineWidth = 48;
+	this.matsyendraText.lineHeight = 27;
+	this.matsyendraText.lineWidth = 51;
 	this.matsyendraText.parent = this;
-	this.matsyendraText.setTransform(1071.15,440.1,0.9033,0.9033);
+	this.matsyendraText.setTransform(1071.6998,445.3,0.9033,0.9033);
 	if(!lib.properties.webfonts['Rubik']) {
 		lib.webFontTxtInst['Rubik'] = lib.webFontTxtInst['Rubik'] || [];
 		lib.webFontTxtInst['Rubik'].push(this.matsyendraText);
 	}
 
-	this.bhujangaText = new cjs.Text("קוברה", "normal 500 20px 'Rubik'", "#75322D");
+	this.bhujangaText = new cjs.Text("קוברה", "normal 500 21px 'Rubik'", "#75322D");
 	this.bhujangaText.name = "bhujangaText";
 	this.bhujangaText.textAlign = "center";
-	this.bhujangaText.lineHeight = 26;
+	this.bhujangaText.lineHeight = 27;
 	this.bhujangaText.lineWidth = 64;
 	this.bhujangaText.parent = this;
-	this.bhujangaText.setTransform(862.1894,209.5,0.9033,0.9033);
+	this.bhujangaText.setTransform(862.1894,210.6,0.9033,0.9033);
 	if(!lib.properties.webfonts['Rubik']) {
 		lib.webFontTxtInst['Rubik'] = lib.webFontTxtInst['Rubik'] || [];
 		lib.webFontTxtInst['Rubik'].push(this.bhujangaText);
@@ -3362,7 +3388,7 @@ if (reversed == null) { reversed = false; }
 
 	this.prasarita = new lib.prasarita_1();
 	this.prasarita.name = "prasarita";
-	this.prasarita.setTransform(385.25,162.4,0.4983,0.4983,0,0,0,98,91.1);
+	this.prasarita.setTransform(385.25,160.7,0.4983,0.4983,0,0,0,98,91.1);
 
 	this.savasana = new lib.savasana_1();
 	this.savasana.name = "savasana";
@@ -3394,15 +3420,15 @@ if (reversed == null) { reversed = false; }
 
 	this.pavana = new lib.pavana_1();
 	this.pavana.name = "pavana";
-	this.pavana.setTransform(977.15,275.95,0.4983,0.4983,0,0,0,94.2,91.6);
+	this.pavana.setTransform(983.3,277.15,0.4983,0.4983,0,0,0,94.2,91.6);
 
 	this.bhujanga = new lib.bhujanga_1();
 	this.bhujanga.name = "bhujanga";
-	this.bhujanga.setTransform(866.05,164.95,0.4983,0.4983,0,0,0,115.1,86.2);
+	this.bhujanga.setTransform(866.05,163.25,0.4983,0.4983,0,0,0,115.1,86.2);
 
 	this.bg = new lib.bg_1();
 	this.bg.name = "bg";
-	this.bg.setTransform(639.1,360.5,1,1,0,0,0,639.1,360.5);
+	this.bg.setTransform(639.1,358.9,1,1,0,0,0,639.1,360.5);
 
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#D1DCC8").s().p("AAAgPIAAAPIAAAQg");
@@ -3413,7 +3439,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(640,360,638.3,361);
+p.nominalBounds = new cjs.Rectangle(640,358.4,638.3,361);
 // library properties:
 lib.properties = {
 	id: 'B8B56150FF25B746A4EC318AC775D838',
@@ -3424,26 +3450,26 @@ lib.properties = {
 	opacity: 1.00,
 	webfonts: {},
 	manifest: [
-		{src:"images/back.png?1602347721566", id:"back"},
-		{src:"images/backBlack.png?1602347721566", id:"backBlack"},
-		{src:"images/balasanaA.png?1602347721566", id:"balasanaA"},
-		{src:"images/belly.png?1602347721566", id:"belly"},
-		{src:"images/bellyBlack.png?1602347721566", id:"bellyBlack"},
-		{src:"images/bhujangaA.png?1602347721566", id:"bhujangaA"},
-		{src:"images/januA.png?1602347721566", id:"januA"},
-		{src:"images/marjariasanaA.png?1602347721566", id:"marjariasanaA"},
-		{src:"images/marjariasanaA2.png?1602347721566", id:"marjariasanaA2"},
-		{src:"images/matsyendraA.png?1602347721566", id:"matsyendraA"},
-		{src:"images/pavanaA.png?1602347721566", id:"pavanaA"},
-		{src:"images/prasaritaA.png?1602347721566", id:"prasaritaA"},
-		{src:"images/savasanaA.png?1602347721566", id:"savasanaA"},
-		{src:"images/title.png?1602347721566", id:"title"},
-		{src:"images/uttanasanaA.png?1602347721566", id:"uttanasanaA"},
-		{src:"images/viparitaA.png?1602347721566", id:"viparitaA"},
-		{src:"images/yoga_atlas_1.png?1602347721494", id:"yoga_atlas_1"},
-		{src:"images/yoga_atlas_2.png?1602347721494", id:"yoga_atlas_2"},
-		{src:"images/yoga_atlas_3.png?1602347721494", id:"yoga_atlas_3"},
-		{src:"images/yoga_atlas_4.png?1602347721494", id:"yoga_atlas_4"}
+		{src:"images/back.png?1602359333820", id:"back"},
+		{src:"images/backBlack.png?1602359333820", id:"backBlack"},
+		{src:"images/balasanaA.png?1602359333820", id:"balasanaA"},
+		{src:"images/belly.png?1602359333820", id:"belly"},
+		{src:"images/bellyBlack.png?1602359333820", id:"bellyBlack"},
+		{src:"images/bhujangaA.png?1602359333820", id:"bhujangaA"},
+		{src:"images/januA.png?1602359333820", id:"januA"},
+		{src:"images/marjariasanaA.png?1602359333820", id:"marjariasanaA"},
+		{src:"images/marjariasanaA2.png?1602359333820", id:"marjariasanaA2"},
+		{src:"images/matsyendraA.png?1602359333820", id:"matsyendraA"},
+		{src:"images/pavanaA.png?1602359333820", id:"pavanaA"},
+		{src:"images/prasaritaA.png?1602359333820", id:"prasaritaA"},
+		{src:"images/savasanaA.png?1602359333820", id:"savasanaA"},
+		{src:"images/title.png?1602359333820", id:"title"},
+		{src:"images/uttanasanaA.png?1602359333820", id:"uttanasanaA"},
+		{src:"images/viparitaA.png?1602359333820", id:"viparitaA"},
+		{src:"images/yoga_atlas_1.png?1602359333721", id:"yoga_atlas_1"},
+		{src:"images/yoga_atlas_2.png?1602359333721", id:"yoga_atlas_2"},
+		{src:"images/yoga_atlas_3.png?1602359333721", id:"yoga_atlas_3"},
+		{src:"images/yoga_atlas_4.png?1602359333721", id:"yoga_atlas_4"}
 	],
 	preloads: []
 };
