@@ -8,10 +8,10 @@ var loadedGoogleCount = 0;
 var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
-		{name:"yoga_atlas_1", frames: [[1567,1430,230,182],[1293,1594,230,182],[1293,1110,459,318],[1744,1614,230,172],[1744,1788,230,172],[1026,1110,265,897],[0,0,1643,1108],[0,1110,1024,672],[590,1784,200,183],[792,1784,200,183],[1293,1430,272,162],[1512,1799,210,183],[0,1784,210,183],[1645,368,188,183],[1645,553,188,183],[1645,738,188,183],[1645,923,188,183],[1645,0,196,182],[1645,184,196,182],[1525,1614,217,183],[1293,1778,217,183],[1754,1108,188,182],[1799,1292,188,182],[212,1784,187,203],[401,1784,187,203]]},
-		{name:"yoga_atlas_2", frames: [[0,0,2000,1125]]},
-		{name:"yoga_atlas_3", frames: [[0,0,1776,1534]]},
-		{name:"yoga_atlas_4", frames: [[0,0,1776,1534]]}
+		{name:"yoga_atlas_1", frames: [[0,0,1776,1534]]},
+		{name:"yoga_atlas_2", frames: [[0,0,1776,1534]]},
+		{name:"yoga_atlas_3", frames: [[0,0,2000,1125]]},
+		{name:"yoga_atlas_4", frames: [[1567,1430,230,182],[1293,1594,230,182],[1293,1110,459,318],[1744,1614,230,172],[1744,1788,230,172],[1026,1110,265,897],[0,0,1643,1108],[0,1110,1024,672],[590,1784,200,183],[792,1784,200,183],[1293,1430,272,162],[1512,1799,210,183],[0,1784,210,183],[1645,368,188,183],[1645,553,188,183],[1645,738,188,183],[1645,923,188,183],[1645,0,196,182],[1645,184,196,182],[1525,1614,217,183],[1293,1778,217,183],[1754,1108,188,182],[1799,1292,188,182],[212,1784,187,203],[401,1784,187,203]]}
 ];
 
 
@@ -103,7 +103,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,572,3122);
 
 
 (lib.balasana = function() {
-	this.initialize(ss["yoga_atlas_1"]);
+	this.initialize(ss["yoga_atlas_4"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
@@ -116,7 +116,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,2606,737);
 
 
 (lib.balasanaBlack = function() {
-	this.initialize(ss["yoga_atlas_1"]);
+	this.initialize(ss["yoga_atlas_4"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
@@ -135,21 +135,21 @@ p.nominalBounds = new cjs.Rectangle(0,0,1716,2053);
 
 
 (lib.bg = function() {
-	this.initialize(ss["yoga_atlas_2"]);
+	this.initialize(ss["yoga_atlas_3"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bgCards = function() {
-	this.initialize(ss["yoga_atlas_1"]);
+	this.initialize(ss["yoga_atlas_4"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bhujanga = function() {
-	this.initialize(ss["yoga_atlas_1"]);
+	this.initialize(ss["yoga_atlas_4"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
@@ -162,49 +162,49 @@ p.nominalBounds = new cjs.Rectangle(0,0,3082,1640);
 
 
 (lib.bhujangaBlack = function() {
-	this.initialize(ss["yoga_atlas_1"]);
+	this.initialize(ss["yoga_atlas_4"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.body = function() {
-	this.initialize(ss["yoga_atlas_1"]);
+	this.initialize(ss["yoga_atlas_4"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.cards = function() {
-	this.initialize(ss["yoga_atlas_1"]);
+	this.initialize(ss["yoga_atlas_4"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.head = function() {
-	this.initialize(ss["yoga_atlas_4"]);
+	this.initialize(ss["yoga_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.headBlack = function() {
-	this.initialize(ss["yoga_atlas_3"]);
+	this.initialize(ss["yoga_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.hitLogo = function() {
-	this.initialize(ss["yoga_atlas_1"]);
+	this.initialize(ss["yoga_atlas_4"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.janu = function() {
-	this.initialize(ss["yoga_atlas_1"]);
+	this.initialize(ss["yoga_atlas_4"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
@@ -217,21 +217,21 @@ p.nominalBounds = new cjs.Rectangle(0,0,3364,1301);
 
 
 (lib.januBlack = function() {
-	this.initialize(ss["yoga_atlas_1"]);
+	this.initialize(ss["yoga_atlas_4"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.lotusBlack = function() {
-	this.initialize(ss["yoga_atlas_1"]);
+	this.initialize(ss["yoga_atlas_4"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.marjariasana = function() {
-	this.initialize(ss["yoga_atlas_1"]);
+	this.initialize(ss["yoga_atlas_4"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
@@ -250,14 +250,14 @@ p.nominalBounds = new cjs.Rectangle(0,0,2280,1562);
 
 
 (lib.marjariasanaBlack = function() {
-	this.initialize(ss["yoga_atlas_1"]);
+	this.initialize(ss["yoga_atlas_4"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.matsyendra = function() {
-	this.initialize(ss["yoga_atlas_1"]);
+	this.initialize(ss["yoga_atlas_4"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
@@ -270,14 +270,14 @@ p.nominalBounds = new cjs.Rectangle(0,0,2280,1762);
 
 
 (lib.matsyendraBlack = function() {
-	this.initialize(ss["yoga_atlas_1"]);
+	this.initialize(ss["yoga_atlas_4"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.pavana = function() {
-	this.initialize(ss["yoga_atlas_1"]);
+	this.initialize(ss["yoga_atlas_4"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
@@ -290,14 +290,14 @@ p.nominalBounds = new cjs.Rectangle(0,0,2380,1328);
 
 
 (lib.pavanaBlack = function() {
-	this.initialize(ss["yoga_atlas_1"]);
+	this.initialize(ss["yoga_atlas_4"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.prasarita = function() {
-	this.initialize(ss["yoga_atlas_1"]);
+	this.initialize(ss["yoga_atlas_4"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
@@ -310,14 +310,14 @@ p.nominalBounds = new cjs.Rectangle(0,0,2768,1574);
 
 
 (lib.prasaritaBlack = function() {
-	this.initialize(ss["yoga_atlas_1"]);
+	this.initialize(ss["yoga_atlas_4"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.savasana = function() {
-	this.initialize(ss["yoga_atlas_1"]);
+	this.initialize(ss["yoga_atlas_4"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
@@ -330,7 +330,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,3452,692);
 
 
 (lib.savasanaBlack = function() {
-	this.initialize(ss["yoga_atlas_1"]);
+	this.initialize(ss["yoga_atlas_4"]);
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
@@ -343,7 +343,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,2613,734);
 
 
 (lib.uttanasana = function() {
-	this.initialize(ss["yoga_atlas_1"]);
+	this.initialize(ss["yoga_atlas_4"]);
 	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
@@ -356,14 +356,14 @@ p.nominalBounds = new cjs.Rectangle(0,0,1234,2096);
 
 
 (lib.uttanasanaBlack = function() {
-	this.initialize(ss["yoga_atlas_1"]);
+	this.initialize(ss["yoga_atlas_4"]);
 	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.viparita = function() {
-	this.initialize(ss["yoga_atlas_1"]);
+	this.initialize(ss["yoga_atlas_4"]);
 	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
@@ -376,7 +376,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,1766,2605);
 
 
 (lib.viparitaBlack = function() {
-	this.initialize(ss["yoga_atlas_1"]);
+	this.initialize(ss["yoga_atlas_4"]);
 	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
@@ -521,7 +521,7 @@ if (reversed == null) { reversed = false; }
 	this.shape_2.setTransform(132,7.25);
 
 	this.shape_3 = new cjs.Shape();
-	this.shape_3.graphics.f("rgba(204,102,102,0.008)").s().p("A2iFmIAAkiIAAmpMAtFAAAIAAGpMgtFAAAMAtFAAAIAAEigAWjBEg");
+	this.shape_3.graphics.f("rgba(204,102,102,0.008)").s().p("A2iFmIAAkiMAtFAAAMgtFAAAIAAmpMAtFAAAIAAGpIAAEigA2iBEg");
 	this.shape_3.setTransform(130.25,0.45);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape},{t:this.text,p:{x:128.15,y:-19.3,font:"normal 700 22px 'Rubik'",lineHeight:28.85,lineWidth:270}}]}).to({state:[{t:this.shape_3},{t:this.shape_2},{t:this.text,p:{x:132,y:-21.65,font:"normal 700 24px 'Rubik'",lineHeight:31.3,lineWidth:296}}]},1).wait(1));
@@ -884,7 +884,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#9AA294").ss(11,1,1).p("AAAAAIBmBmAAAAAIhlBmAhlhkIBlBkABmhkIhmBk");
+	this.shape.graphics.f().s("#9AA294").ss(11,1,1).p("AAAAAIBmBmAAAAAIhlBmABmhkIhmBkAhlhkIBlBk");
 	this.shape.setTransform(0,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
@@ -918,11 +918,11 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#000000").ss(11,1,1).p("AAAAAIBlBmAAAAAIhkBmAhkhlIBkBlABlhlIhlBl");
+	this.shape.graphics.f().s("#000000").ss(11,1,1).p("AAAAAIBlBmAAAAAIhkBmABlhlIhlBlAhkhlIBkBl");
 	this.shape.setTransform(-38.65,1.85);
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f().s("#000000").ss(11,1,1).p("AAAAAIChChAAAAAIigChAChigIihCgAigigICgCg");
+	this.shape_1.graphics.f().s("#000000").ss(11,1,1).p("AAAAAIChChAAAAAIigChAigigICgCgAChigIihCg");
 	this.shape_1.setTransform(-38.625,1.825);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape}]}).to({state:[{t:this.shape_1}]},1).wait(1));
@@ -1590,7 +1590,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#000000").ss(2,1,1).p("AhNAxQAAgpg0gwQABAAABABQABgBAAABQCxAYBPBxAgnhhQgcAng+AS");
+	this.shape.graphics.f().s("#000000").ss(2,1,1).p("AgnhhQgcAng+ASAhNAxQAAgpg0gwQABAAABABQABgBAAABQCxAYBPBx");
 	this.shape.setTransform(-3.175,-15.5875);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
@@ -1613,7 +1613,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#000000").ss(2,1,1).p("AhthpQAAgqg0gxQABABABAAQABAAAAAAQFhAxglGQAhHj8QgcAng+AR");
+	this.shape.graphics.f().s("#000000").ss(2,1,1).p("AhHj8QgcAng+ARQABABABAAQABAAAAAAQFhAxglGQAhthpQAAgqg0gx");
 	this.shape.setTransform(16.1695,25.9);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
@@ -3183,6 +3183,9 @@ if (reversed == null) { reversed = false; }
 				self.prasarita.mouseEnabled = false;
 				self.advancedBtn.mouseEnabled = false;
 				self.aboutBtn.mouseEnabled = false;
+				self.head.mouseEnabled = false;
+				self.belly.mouseEnabled = false;
+				self.back.mouseEnabled = false;
 		
 				self.bhujangaText.visible = true;
 				self.pavanaText.visible = true;
@@ -3225,6 +3228,9 @@ if (reversed == null) { reversed = false; }
 				self.prasarita.mouseEnabled = true;
 				self.advancedBtn.mouseEnabled = true;
 				self.aboutBtn.mouseEnabled = true;
+				self.head.mouseEnabled = true;
+				self.belly.mouseEnabled = true;
+				self.back.mouseEnabled = true;
 		
 				self.yogaText.visible = true;
 				self.bodyText.visible = true;
@@ -3296,6 +3302,9 @@ if (reversed == null) { reversed = false; }
 				self.savasana.mouseEnabled = false;
 				self.beginnersBtn.mouseEnabled = false;
 				self.aboutBtn.mouseEnabled = false;
+				self.head.mouseEnabled = false;
+				self.belly.mouseEnabled = false;
+				self.back.mouseEnabled = false;
 		
 				self.matsyendraText.visible = true;
 				self.januText.visible = true;
@@ -3333,6 +3342,9 @@ if (reversed == null) { reversed = false; }
 				self.savasana.mouseEnabled = true;
 				self.beginnersBtn.mouseEnabled = true;
 				self.aboutBtn.mouseEnabled = true;
+				self.head.mouseEnabled = true;
+				self.belly.mouseEnabled = true;
+				self.back.mouseEnabled = true;
 		
 				self.yogaText.visible = true;
 				self.bodyText.visible = true;
@@ -3821,26 +3833,26 @@ lib.properties = {
 	opacity: 1.00,
 	webfonts: {},
 	manifest: [
-		{src:"images/back.png?1602419724351", id:"back"},
-		{src:"images/backBlack.png?1602419724351", id:"backBlack"},
-		{src:"images/balasanaA.png?1602419724351", id:"balasanaA"},
-		{src:"images/belly.png?1602419724351", id:"belly"},
-		{src:"images/bellyBlack.png?1602419724351", id:"bellyBlack"},
-		{src:"images/bhujangaA.png?1602419724351", id:"bhujangaA"},
-		{src:"images/januA.png?1602419724351", id:"januA"},
-		{src:"images/marjariasanaA.png?1602419724351", id:"marjariasanaA"},
-		{src:"images/marjariasanaA2.png?1602419724351", id:"marjariasanaA2"},
-		{src:"images/matsyendraA.png?1602419724351", id:"matsyendraA"},
-		{src:"images/pavanaA.png?1602419724351", id:"pavanaA"},
-		{src:"images/prasaritaA.png?1602419724351", id:"prasaritaA"},
-		{src:"images/savasanaA.png?1602419724351", id:"savasanaA"},
-		{src:"images/title.png?1602419724351", id:"title"},
-		{src:"images/uttanasanaA.png?1602419724351", id:"uttanasanaA"},
-		{src:"images/viparitaA.png?1602419724351", id:"viparitaA"},
-		{src:"images/yoga_atlas_1.png?1602419724240", id:"yoga_atlas_1"},
-		{src:"images/yoga_atlas_2.png?1602419724240", id:"yoga_atlas_2"},
-		{src:"images/yoga_atlas_3.png?1602419724240", id:"yoga_atlas_3"},
-		{src:"images/yoga_atlas_4.png?1602419724240", id:"yoga_atlas_4"}
+		{src:"images/back.png?1602438618983", id:"back"},
+		{src:"images/backBlack.png?1602438618983", id:"backBlack"},
+		{src:"images/balasanaA.png?1602438618983", id:"balasanaA"},
+		{src:"images/belly.png?1602438618983", id:"belly"},
+		{src:"images/bellyBlack.png?1602438618983", id:"bellyBlack"},
+		{src:"images/bhujangaA.png?1602438618983", id:"bhujangaA"},
+		{src:"images/januA.png?1602438618983", id:"januA"},
+		{src:"images/marjariasanaA.png?1602438618983", id:"marjariasanaA"},
+		{src:"images/marjariasanaA2.png?1602438618983", id:"marjariasanaA2"},
+		{src:"images/matsyendraA.png?1602438618983", id:"matsyendraA"},
+		{src:"images/pavanaA.png?1602438618983", id:"pavanaA"},
+		{src:"images/prasaritaA.png?1602438618983", id:"prasaritaA"},
+		{src:"images/savasanaA.png?1602438618983", id:"savasanaA"},
+		{src:"images/title.png?1602438618983", id:"title"},
+		{src:"images/uttanasanaA.png?1602438618983", id:"uttanasanaA"},
+		{src:"images/viparitaA.png?1602438618983", id:"viparitaA"},
+		{src:"images/yoga_atlas_1.png?1602438618771", id:"yoga_atlas_1"},
+		{src:"images/yoga_atlas_2.png?1602438618771", id:"yoga_atlas_2"},
+		{src:"images/yoga_atlas_3.png?1602438618771", id:"yoga_atlas_3"},
+		{src:"images/yoga_atlas_4.png?1602438618772", id:"yoga_atlas_4"}
 	],
 	preloads: []
 };
