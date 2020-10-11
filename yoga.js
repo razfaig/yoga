@@ -856,6 +856,44 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(-16.2,-7.7,66.5,81.7);
 
 
+(lib.exitBtnGray = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	this.isSingleFrame = false;
+	// timeline functions:
+	this.frame_0 = function() {
+		if(this.isSingleFrame) {
+			return;
+		}
+		if(this.totalFrames == 1) {
+			this.isSingleFrame = true;
+		}
+		this.stop();
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#9AA294").ss(11,1,1).p("AAAAAIBmBmAAAAAIhlBmABmhkIhmBkAhlhkIBlBk");
+	this.shape.setTransform(0,0.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.exitBtnGray, new cjs.Rectangle(-15.6,-15.1,31.299999999999997,31.299999999999997), null);
+
+
 (lib.exitBtn = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -893,6 +931,130 @@ if (reversed == null) { reversed = false; }
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-60.2,-19.8,43.2,43.3);
+
+
+(lib.creditsCard = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.text = new cjs.Text("<a href='https://www.freepik\n.com/vectors/heart'>\nHeart vector created \nby macrovector - www.freepik.com</a>", "normal 500 17px 'Rubik'");
+	this.text.lineHeight = 22;
+	this.text.lineWidth = 210;
+	this.text.parent = this;
+	this.text.setTransform(576.75,49);
+	if(!lib.properties.webfonts['Rubik']) {
+		lib.webFontTxtInst['Rubik'] = lib.webFontTxtInst['Rubik'] || [];
+		lib.webFontTxtInst['Rubik'].push(this.text);
+	}
+
+	this.text_1 = new cjs.Text("<a href='https://www.freepik\n.com/vectors/cute'>Cute vector created by freepik <a href='https://www.freepi\nk.com/vectors\n/icon'>Icon vector created \nby dreamwaves - www.freepik.com</a>", "normal 500 17px 'Rubik'");
+	this.text_1.lineHeight = 22;
+	this.text_1.lineWidth = 231;
+	this.text_1.parent = this;
+	this.text_1.setTransform(299.75,49);
+	if(!lib.properties.webfonts['Rubik']) {
+		lib.webFontTxtInst['Rubik'] = lib.webFontTxtInst['Rubik'] || [];
+		lib.webFontTxtInst['Rubik'].push(this.text_1);
+	}
+
+	this.text_2 = new cjs.Text("<a\nhref='https://www.freepik\n.com/vectors/people'>\nPeople vector created \nby freepik\n- www.freepik.com</a>", "normal 500 17px 'Rubik'");
+	this.text_2.lineHeight = 22;
+	this.text_2.lineWidth = 237;
+	this.text_2.parent = this;
+	this.text_2.setTransform(22.6,49);
+	if(!lib.properties.webfonts['Rubik']) {
+		lib.webFontTxtInst['Rubik'] = lib.webFontTxtInst['Rubik'] || [];
+		lib.webFontTxtInst['Rubik'].push(this.text_2);
+	}
+
+	this.text_3 = new cjs.Text("<a href='https://www.freepik\n.com/vectors/cute'>Cute vector created by\n freepik -\nwww.freepik.com</a>", "normal 500 17px 'Rubik'");
+	this.text_3.lineHeight = 22;
+	this.text_3.lineWidth = 221;
+	this.text_3.parent = this;
+	this.text_3.setTransform(-255.45,49);
+	if(!lib.properties.webfonts['Rubik']) {
+		lib.webFontTxtInst['Rubik'] = lib.webFontTxtInst['Rubik'] || [];
+		lib.webFontTxtInst['Rubik'].push(this.text_3);
+	}
+
+	this.text_4 = new cjs.Text("קרדיטים לתמונות מאתר\nFreepik", "normal 500 25px 'Rubik'", "#75322D");
+	this.text_4.textAlign = "center";
+	this.text_4.lineHeight = 32;
+	this.text_4.lineWidth = 365;
+	this.text_4.parent = this;
+	this.text_4.setTransform(283,-49.1);
+	if(!lib.properties.webfonts['Rubik']) {
+		lib.webFontTxtInst['Rubik'] = lib.webFontTxtInst['Rubik'] || [];
+		lib.webFontTxtInst['Rubik'].push(this.text_4);
+	}
+
+	this.instance = new lib.cards();
+	this.instance.setTransform(-307,-83,0.7049,0.3632);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.text_4},{t:this.text_3},{t:this.text_2},{t:this.text_1},{t:this.text}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.creditsCard, new cjs.Rectangle(-307,-83,1158.2,444), null);
+
+
+(lib.creditsBtn = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// timeline functions:
+	this.frame_0 = function() {
+		this.stop();
+	}
+	this.frame_1 = function() {
+		this.stop();
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1));
+
+	// Layer_1
+	this.creditsText = new cjs.Text("לקרדיטים לחץ כאן", "normal 500 17px 'Rubik'", "#75322D");
+	this.creditsText.name = "creditsText";
+	this.creditsText.textAlign = "center";
+	this.creditsText.lineHeight = 22;
+	this.creditsText.lineWidth = 170;
+	this.creditsText.parent = this;
+	this.creditsText.setTransform(111,-54.95);
+	if(!lib.properties.webfonts['Rubik']) {
+		lib.webFontTxtInst['Rubik'] = lib.webFontTxtInst['Rubik'] || [];
+		lib.webFontTxtInst['Rubik'].push(this.creditsText);
+	}
+
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("rgba(117,50,45,0.008)").s().p("AszCvIAAldIZnAAIAAFdg");
+	this.shape.setTransform(111,-39.45);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("rgba(117,50,45,0.008)").s().p("AwPDOIAAmbMAgfAAAIAAGbg");
+	this.shape_1.setTransform(115.025,-38.575);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape},{t:this.creditsText,p:{scaleX:1,scaleY:1,x:111,y:-54.95}}]}).to({state:[{t:this.shape_1},{t:this.creditsText,p:{scaleX:1.1494,scaleY:1.1494,x:111.0324,y:-56.9}}]},1).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(11.1,-59.2,207.9,41.300000000000004);
 
 
 (lib.cards_1 = function(mode,startPosition,loop,reversed) {
@@ -1544,6 +1706,10 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
+	this.creditsBtn = new lib.creditsBtn();
+	this.creditsBtn.name = "creditsBtn";
+	this.creditsBtn.setTransform(662.85,333.45,1,1,0,0,0,111,-41.8);
+
 	this.text = new cjs.Text("תש\"פ 2020", "normal 700 24px 'Rubik'", "#75322D");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 31;
@@ -1626,7 +1792,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_3 = new lib.cards();
 	this.instance_3.setTransform(201,-256,0.5774,0.5774);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_3},{t:this.text_5},{t:this.instance_2},{t:this.text_4},{t:this.text_3},{t:this.text_2},{t:this.text_1},{t:this.instance_1},{t:this.hitUrl},{t:this.instance},{t:this.text}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_3},{t:this.text_5},{t:this.instance_2},{t:this.text_4},{t:this.text_3},{t:this.text_2},{t:this.text_1},{t:this.instance_1},{t:this.hitUrl},{t:this.instance},{t:this.text},{t:this.creditsBtn}]}).wait(1));
 
 	this._renderFirstFrame();
 
@@ -1804,9 +1970,23 @@ if (reversed == null) { reversed = false; }
 		//הגדרת לחיצת עכבר על כפתור איקס באודות
 		self.exitBtn2.addEventListener("click", exitBtn2Click);
 		
-		//הגדרת מעכבר עכבר לכפתור איקס באודות
+		//הגדרת מעבר עכבר על כפתור איקס באודות
 		self.exitBtn2.addEventListener("mouseover", exitBtn2Over);
 		self.exitBtn2.addEventListener("mouseout", exitBtn2Out);
+		
+		//הגדרת מעבר עכבר על כפתור קרדיטים 
+		self.about.creditsBtn.addEventListener("mouseover", creditsBtnOver);
+		self.about.creditsBtn.addEventListener("mouseout", creditsBtnOut);
+		
+		//הגדרת כפתור קרדיטים ככפתור לחיץ
+		self.about.creditsBtn.addEventListener("click", creditsBtnClick);
+		
+		//הגדרת מעבר עכבר על כפתור איקס בקרדיטים
+		self.exitBtn3.addEventListener("mouseover", exitBtn3Over);
+		self.exitBtn3.addEventListener("mouseout", exitBtn3Out);
+		
+		//הגדרת לחיצת עכבר על כפתור איקס בקרדיטים
+		self.exitBtn3.addEventListener("click", exitBtn3Click);
 		
 		//פונקציה שהופכת את כל הכפתורים של התנוחות לאפורים
 		function grayAll() {
@@ -1955,6 +2135,9 @@ if (reversed == null) { reversed = false; }
 		self.exitBtn.visible = false;
 		self.about.visible = false;
 		self.exitBtn2.visible = false;
+		self.creditsCard.visible = false;
+		self.exitBtn3.visible = false;
+		self.exitBtnGray.visible = false;
 		
 		//פונקציה - מעבר עכבר על תנוחת הקוברה
 		function bhujangaOver() {
@@ -3139,7 +3322,7 @@ if (reversed == null) { reversed = false; }
 		//פונקציה - לחיצה על איקס סוגר כרטיסיית אודות
 		function exitBtn2Click() {
 			addListeners();
-			
+		
 			self.aboutBtn.addEventListener("mouseover", aboutBtnOver);
 			self.aboutBtn.addEventListener("mouseout", aboutBtnOut);
 		
@@ -3169,27 +3352,79 @@ if (reversed == null) { reversed = false; }
 			stage.cursor = "auto";
 			self.exitBtn2.gotoAndStop(0);
 		}
+		
+		//פונקציה - מעבר עכבר על כפתור קרדיטים בכרטייסית אודות
+		function creditsBtnOver() {
+			stage.cursor = "pointer";
+			self.about.creditsBtn.gotoAndStop(1);
+		}
+		
+		//פונקציה - יציאת מעבר עכבר מכפתור קרדיטים בכרטיסיית אודות
+		function creditsBtnOut() {
+			stage.cursor = "auto";
+			self.about.creditsBtn.gotoAndStop(0);
+		}
+		
+		//פונקציה - לחיצת עכבר על כפתור קרדיטים בכרטיסיית אודות
+		function creditsBtnClick() {
+			self.exitBtnGray.visible = true;
+			self.exitBtn2.visible = false;
+			self.creditsCard.visible = true;
+			self.exitBtn3.visible = true;
+		}
+		
+		//פונקציה - מעבר עכבר על כפתור איקס בקרדיטים
+		function exitBtn3Over() {
+			stage.cursor = "pointer";
+			self.exitBtn3.gotoAndStop(1);
+		}
+		
+		//פונקציה - יציאת מעבר עכבר מכפתור איקס בקרדיטים
+		function exitBtn3Out() {
+			stage.cursor = "auto";
+			self.exitBtn3.gotoAndStop(0);
+		}
+		
+		//פונקציה - לחיצת עכבר על כפתור איקס בקרדיטים
+		function exitBtn3Click() {
+			self.exitBtnGray.visible = false;
+			self.exitBtn2.visible = true;
+			self.creditsCard.visible = false;
+			self.exitBtn3.visible = false;
+		}
 	}
 
 	// actions tween:
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
 	// Layer_1
+	this.exitBtnGray = new lib.exitBtnGray();
+	this.exitBtnGray.name = "exitBtnGray";
+	this.exitBtnGray.setTransform(229.45,117.55,1,1,0,0,0,0,0.5);
+
+	this.exitBtn3 = new lib.exitBtn();
+	this.exitBtn3.name = "exitBtn3";
+	this.exitBtn3.setTransform(152.55,252.55,1,1,0,0,0,-38.6,1.9);
+
+	this.creditsCard = new lib.creditsCard();
+	this.creditsCard.name = "creditsCard";
+	this.creditsCard.setTransform(658.65,381.25,1,1,0,0,0,272.1,118.4);
+
 	this.exitBtn2 = new lib.exitBtn();
 	this.exitBtn2.name = "exitBtn2";
 	this.exitBtn2.setTransform(298.15,138.75,1.0996,1.0996,0,0,0,22.9,20.2);
 
 	this.about = new lib.about();
 	this.about.name = "about";
-	this.about.setTransform(650.2,372.65,1.0996,1.0996,0,0,0,671.6,74.8);
+	this.about.setTransform(655.25,373.05,1.0996,1.0996,0,0,0,671.6,74.8);
 
 	this.exitBtn = new lib.exitBtn();
 	this.exitBtn.name = "exitBtn";
-	this.exitBtn.setTransform(269.8,124.3,1,1,0,0,0,22.8,20.2);
+	this.exitBtn.setTransform(252.75,124.3,1,1,0,0,0,22.8,20.2);
 
 	this.cards = new lib.cards_1();
 	this.cards.name = "cards";
-	this.cards.setTransform(653.1,366.25,1.0046,1.0046,0,0,0,470.2,296.2);
+	this.cards.setTransform(636.05,366.25,1.0046,1.0046,0,0,0,470.2,296.2);
 
 	this.yogaText = new cjs.Text("עברו/לחצו על אחת מהתנוחות", "normal 500 17px 'Rubik'", "#74322C");
 	this.yogaText.name = "yogaText";
@@ -3434,7 +3669,7 @@ if (reversed == null) { reversed = false; }
 	this.shape.graphics.f("#D1DCC8").s().p("AAAgPIAAAPIAAAQg");
 	this.shape.setTransform(322.675,185.65);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape},{t:this.bg},{t:this.bhujanga},{t:this.pavana},{t:this.matsyendra},{t:this.janu},{t:this.marjariasana},{t:this.balasana},{t:this.uttanasana},{t:this.viparita},{t:this.savasana},{t:this.prasarita},{t:this.levelsH},{t:this.advancedBtn},{t:this.beginnersBtn},{t:this.bhujangaText},{t:this.matsyendraText},{t:this.januText},{t:this.marjariasanaText},{t:this.balasanaText},{t:this.uttanasanaText},{t:this.viparitaText},{t:this.savasanaText},{t:this.prasaritaText},{t:this.arrow2},{t:this.pavanaText},{t:this.body},{t:this.back},{t:this.belly},{t:this.head},{t:this.arrow1},{t:this.instance},{t:this.aboutBtn},{t:this.arrowSmall},{t:this.levelsText},{t:this.bodyText},{t:this.yogaText},{t:this.cards},{t:this.exitBtn},{t:this.about},{t:this.exitBtn2}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape},{t:this.bg},{t:this.bhujanga},{t:this.pavana},{t:this.matsyendra},{t:this.janu},{t:this.marjariasana},{t:this.balasana},{t:this.uttanasana},{t:this.viparita},{t:this.savasana},{t:this.prasarita},{t:this.levelsH},{t:this.advancedBtn},{t:this.beginnersBtn},{t:this.bhujangaText},{t:this.matsyendraText},{t:this.januText},{t:this.marjariasanaText},{t:this.balasanaText},{t:this.uttanasanaText},{t:this.viparitaText},{t:this.savasanaText},{t:this.prasaritaText},{t:this.arrow2},{t:this.pavanaText},{t:this.body},{t:this.back},{t:this.belly},{t:this.head},{t:this.arrow1},{t:this.instance},{t:this.aboutBtn},{t:this.arrowSmall},{t:this.levelsText},{t:this.bodyText},{t:this.yogaText},{t:this.cards},{t:this.exitBtn},{t:this.about},{t:this.exitBtn2},{t:this.creditsCard},{t:this.exitBtn3},{t:this.exitBtnGray}]}).wait(1));
 
 	this._renderFirstFrame();
 
@@ -3450,26 +3685,26 @@ lib.properties = {
 	opacity: 1.00,
 	webfonts: {},
 	manifest: [
-		{src:"images/back.png?1602359333820", id:"back"},
-		{src:"images/backBlack.png?1602359333820", id:"backBlack"},
-		{src:"images/balasanaA.png?1602359333820", id:"balasanaA"},
-		{src:"images/belly.png?1602359333820", id:"belly"},
-		{src:"images/bellyBlack.png?1602359333820", id:"bellyBlack"},
-		{src:"images/bhujangaA.png?1602359333820", id:"bhujangaA"},
-		{src:"images/januA.png?1602359333820", id:"januA"},
-		{src:"images/marjariasanaA.png?1602359333820", id:"marjariasanaA"},
-		{src:"images/marjariasanaA2.png?1602359333820", id:"marjariasanaA2"},
-		{src:"images/matsyendraA.png?1602359333820", id:"matsyendraA"},
-		{src:"images/pavanaA.png?1602359333820", id:"pavanaA"},
-		{src:"images/prasaritaA.png?1602359333820", id:"prasaritaA"},
-		{src:"images/savasanaA.png?1602359333820", id:"savasanaA"},
-		{src:"images/title.png?1602359333820", id:"title"},
-		{src:"images/uttanasanaA.png?1602359333820", id:"uttanasanaA"},
-		{src:"images/viparitaA.png?1602359333820", id:"viparitaA"},
-		{src:"images/yoga_atlas_1.png?1602359333721", id:"yoga_atlas_1"},
-		{src:"images/yoga_atlas_2.png?1602359333721", id:"yoga_atlas_2"},
-		{src:"images/yoga_atlas_3.png?1602359333721", id:"yoga_atlas_3"},
-		{src:"images/yoga_atlas_4.png?1602359333721", id:"yoga_atlas_4"}
+		{src:"images/back.png?1602414458462", id:"back"},
+		{src:"images/backBlack.png?1602414458462", id:"backBlack"},
+		{src:"images/balasanaA.png?1602414458462", id:"balasanaA"},
+		{src:"images/belly.png?1602414458462", id:"belly"},
+		{src:"images/bellyBlack.png?1602414458462", id:"bellyBlack"},
+		{src:"images/bhujangaA.png?1602414458462", id:"bhujangaA"},
+		{src:"images/januA.png?1602414458462", id:"januA"},
+		{src:"images/marjariasanaA.png?1602414458462", id:"marjariasanaA"},
+		{src:"images/marjariasanaA2.png?1602414458462", id:"marjariasanaA2"},
+		{src:"images/matsyendraA.png?1602414458462", id:"matsyendraA"},
+		{src:"images/pavanaA.png?1602414458462", id:"pavanaA"},
+		{src:"images/prasaritaA.png?1602414458462", id:"prasaritaA"},
+		{src:"images/savasanaA.png?1602414458462", id:"savasanaA"},
+		{src:"images/title.png?1602414458462", id:"title"},
+		{src:"images/uttanasanaA.png?1602414458462", id:"uttanasanaA"},
+		{src:"images/viparitaA.png?1602414458462", id:"viparitaA"},
+		{src:"images/yoga_atlas_1.png?1602414458287", id:"yoga_atlas_1"},
+		{src:"images/yoga_atlas_2.png?1602414458287", id:"yoga_atlas_2"},
+		{src:"images/yoga_atlas_3.png?1602414458287", id:"yoga_atlas_3"},
+		{src:"images/yoga_atlas_4.png?1602414458287", id:"yoga_atlas_4"}
 	],
 	preloads: []
 };
