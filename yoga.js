@@ -884,7 +884,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#9AA294").ss(11,1,1).p("AAAAAIBmBmAAAAAIhlBmABmhkIhmBkAhlhkIBlBk");
+	this.shape.graphics.f().s("#9AA294").ss(11,1,1).p("AAAAAIBmBmAAAAAIhlBmAhlhkIBlBkABmhkIhmBk");
 	this.shape.setTransform(0,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
@@ -918,11 +918,11 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#000000").ss(11,1,1).p("AAAAAIBlBmAAAAAIhkBmABlhlIhlBlAhkhlIBkBl");
+	this.shape.graphics.f().s("#000000").ss(11,1,1).p("AAAAAIBlBmAAAAAIhkBmAhkhlIBkBlABlhlIhlBl");
 	this.shape.setTransform(-38.65,1.85);
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f().s("#000000").ss(11,1,1).p("AAAAAIChChAAAAAIigChAigigICgCgAChigIihCg");
+	this.shape_1.graphics.f().s("#000000").ss(11,1,1).p("AAAAAIChChAAAAAIigChAChigIihCgAigigICgCg");
 	this.shape_1.setTransform(-38.625,1.825);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape}]}).to({state:[{t:this.shape_1}]},1).wait(1));
@@ -945,44 +945,92 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("<a href='https://www.freepik\n.com/vectors/heart'>\nHeart vector created \nby macrovector - www.freepik.com</a>", "normal 500 17px 'Rubik'");
+	this.text = new cjs.Text("איברים", "normal 500 17px 'Rubik'", "#75322D");
+	this.text.textAlign = "center";
 	this.text.lineHeight = 22;
-	this.text.lineWidth = 210;
+	this.text.lineWidth = 114;
 	this.text.parent = this;
-	this.text.setTransform(576.75,49);
+	this.text.setTransform(660,92.4);
 	if(!lib.properties.webfonts['Rubik']) {
 		lib.webFontTxtInst['Rubik'] = lib.webFontTxtInst['Rubik'] || [];
 		lib.webFontTxtInst['Rubik'].push(this.text);
 	}
 
-	this.text_1 = new cjs.Text("<a href='https://www.freepik\n.com/vectors/cute'>Cute vector created by freepik <a href='https://www.freepi\nk.com/vectors\n/icon'>Icon vector created \nby dreamwaves - www.freepik.com</a>", "normal 500 17px 'Rubik'");
+	this.text_1 = new cjs.Text("רקע אייקונים העגולים", "normal 500 17px 'Rubik'", "#75322D");
+	this.text_1.textAlign = "center";
 	this.text_1.lineHeight = 22;
-	this.text_1.lineWidth = 231;
+	this.text_1.lineWidth = 166;
 	this.text_1.parent = this;
-	this.text_1.setTransform(299.75,49);
+	this.text_1.setTransform(376.75,92.35);
 	if(!lib.properties.webfonts['Rubik']) {
 		lib.webFontTxtInst['Rubik'] = lib.webFontTxtInst['Rubik'] || [];
 		lib.webFontTxtInst['Rubik'].push(this.text_1);
 	}
 
-	this.text_2 = new cjs.Text("<a\nhref='https://www.freepik\n.com/vectors/people'>\nPeople vector created \nby freepik\n- www.freepik.com</a>", "normal 500 17px 'Rubik'");
+	this.text_2 = new cjs.Text("דמות האדם", "normal 500 17px 'Rubik'", "#75322D");
+	this.text_2.textAlign = "center";
 	this.text_2.lineHeight = 22;
-	this.text_2.lineWidth = 237;
+	this.text_2.lineWidth = 114;
 	this.text_2.parent = this;
-	this.text_2.setTransform(22.6,49);
+	this.text_2.setTransform(109.3,92.35);
 	if(!lib.properties.webfonts['Rubik']) {
 		lib.webFontTxtInst['Rubik'] = lib.webFontTxtInst['Rubik'] || [];
 		lib.webFontTxtInst['Rubik'].push(this.text_2);
 	}
 
-	this.text_3 = new cjs.Text("<a href='https://www.freepik\n.com/vectors/cute'>Cute vector created by\n freepik -\nwww.freepik.com</a>", "normal 500 17px 'Rubik'");
+	this.text_3 = new cjs.Text("רקע הייצוג", "normal 500 17px 'Rubik'", "#75322D");
+	this.text_3.textAlign = "center";
 	this.text_3.lineHeight = 22;
-	this.text_3.lineWidth = 221;
+	this.text_3.lineWidth = 114;
 	this.text_3.parent = this;
-	this.text_3.setTransform(-255.45,49);
+	this.text_3.setTransform(-144.95,92.35);
 	if(!lib.properties.webfonts['Rubik']) {
 		lib.webFontTxtInst['Rubik'] = lib.webFontTxtInst['Rubik'] || [];
 		lib.webFontTxtInst['Rubik'].push(this.text_3);
+	}
+
+	this.organsText = new cjs.Text("Heart vector created \nby macrovector - www.freepik.com", "normal 500 17px 'Rubik'");
+	this.organsText.name = "organsText";
+	this.organsText.lineHeight = 22;
+	this.organsText.lineWidth = 210;
+	this.organsText.parent = this;
+	this.organsText.setTransform(576.75,117);
+	if(!lib.properties.webfonts['Rubik']) {
+		lib.webFontTxtInst['Rubik'] = lib.webFontTxtInst['Rubik'] || [];
+		lib.webFontTxtInst['Rubik'].push(this.organsText);
+	}
+
+	this.iconText = new cjs.Text("Icon vector created \nby dreamwaves - www.freepik.com", "normal 500 17px 'Rubik'");
+	this.iconText.name = "iconText";
+	this.iconText.lineHeight = 22;
+	this.iconText.lineWidth = 231;
+	this.iconText.parent = this;
+	this.iconText.setTransform(299.75,117);
+	if(!lib.properties.webfonts['Rubik']) {
+		lib.webFontTxtInst['Rubik'] = lib.webFontTxtInst['Rubik'] || [];
+		lib.webFontTxtInst['Rubik'].push(this.iconText);
+	}
+
+	this.pepoleText = new cjs.Text("People vector created \nby freepik - www.freepik.com", "normal 500 17px 'Rubik'");
+	this.pepoleText.name = "pepoleText";
+	this.pepoleText.lineHeight = 22;
+	this.pepoleText.lineWidth = 237;
+	this.pepoleText.parent = this;
+	this.pepoleText.setTransform(22.6,117);
+	if(!lib.properties.webfonts['Rubik']) {
+		lib.webFontTxtInst['Rubik'] = lib.webFontTxtInst['Rubik'] || [];
+		lib.webFontTxtInst['Rubik'].push(this.pepoleText);
+	}
+
+	this.cuteText = new cjs.Text("Cute vector created \nby freepik -\nwww.freepik.com", "normal 500 17px 'Rubik'");
+	this.cuteText.name = "cuteText";
+	this.cuteText.lineHeight = 22;
+	this.cuteText.lineWidth = 202;
+	this.cuteText.parent = this;
+	this.cuteText.setTransform(-229.45,117);
+	if(!lib.properties.webfonts['Rubik']) {
+		lib.webFontTxtInst['Rubik'] = lib.webFontTxtInst['Rubik'] || [];
+		lib.webFontTxtInst['Rubik'].push(this.cuteText);
 	}
 
 	this.text_4 = new cjs.Text("קרדיטים לתמונות מאתר\nFreepik", "normal 500 25px 'Rubik'", "#75322D");
@@ -990,7 +1038,7 @@ if (reversed == null) { reversed = false; }
 	this.text_4.lineHeight = 32;
 	this.text_4.lineWidth = 365;
 	this.text_4.parent = this;
-	this.text_4.setTransform(283,-49.1);
+	this.text_4.setTransform(283,-26.1);
 	if(!lib.properties.webfonts['Rubik']) {
 		lib.webFontTxtInst['Rubik'] = lib.webFontTxtInst['Rubik'] || [];
 		lib.webFontTxtInst['Rubik'].push(this.text_4);
@@ -999,11 +1047,11 @@ if (reversed == null) { reversed = false; }
 	this.instance = new lib.cards();
 	this.instance.setTransform(-307,-83,0.7049,0.3632);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.text_4},{t:this.text_3},{t:this.text_2},{t:this.text_1},{t:this.text}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.text_4},{t:this.cuteText},{t:this.pepoleText},{t:this.iconText},{t:this.organsText},{t:this.text_3},{t:this.text_2},{t:this.text_1},{t:this.text}]}).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.creditsCard, new cjs.Rectangle(-307,-83,1158.2,444), null);
+}).prototype = getMCSymbolPrototype(lib.creditsCard, new cjs.Rectangle(-307,-83,1158.2,402.4), null);
 
 
 (lib.creditsBtn = function(mode,startPosition,loop,reversed) {
@@ -1987,6 +2035,34 @@ if (reversed == null) { reversed = false; }
 		
 		//הגדרת לחיצת עכבר על כפתור איקס בקרדיטים
 		self.exitBtn3.addEventListener("click", exitBtn3Click);
+		
+		//הגדרת טקסט רקע הייצוג בכרטיסיית קרדיטים ככפתור מעבר
+		self.creditsCard.cuteText.addEventListener("mouseover", cuteTextOver);
+		self.creditsCard.cuteText.addEventListener("mouseout", cuteTextOut);
+		
+		//הגדרת טקסט רקע הייצוג בכרטיסיית קרדיטים ככפתור לחיץ
+		self.creditsCard.cuteText.addEventListener("click", cuteTextClick);
+		
+		//הגדרת טקסט דמות האדם בכרטיסיית קרדיטים ככפתור מעבר
+		self.creditsCard.pepoleText.addEventListener("mouseover", pepoleTextOver);
+		self.creditsCard.pepoleText.addEventListener("mouseout", pepoleTextOut);
+		
+		//הגדרת טקסט דמות האדם בכרטיסיית קרדיטים ככפתור לחיץ
+		self.creditsCard.pepoleText.addEventListener("click", pepoleTextClick);
+		
+		//הגדרת טקסט אייקונים בכרטיסיית קרדיטים ככפתור מעבר
+		self.creditsCard.iconText.addEventListener("mouseover", iconTextOver);
+		self.creditsCard.iconText.addEventListener("mouseout", iconTextOut);
+		
+		//הגדרת טקסט אייקונים בכרטיסיית קרדיטים ככפתור לחיץ
+		self.creditsCard.iconText.addEventListener("click", iconTextClick);
+		
+		//הגדרת טקסט איברים בכרטיסיית קרדיטים ככפתור מעבר
+		self.creditsCard.organsText.addEventListener("mouseover", organsTextOver);
+		self.creditsCard.organsText.addEventListener("mouseout", organsTextOut);
+		
+		//הגדרת טקסט איברים בכרטיסיית קרדיטים ככפתור לחיץ
+		self.creditsCard.organsText.addEventListener("click", organsTextClick);
 		
 		//פונקציה שהופכת את כל הכפתורים של התנוחות לאפורים
 		function grayAll() {
@@ -3392,6 +3468,66 @@ if (reversed == null) { reversed = false; }
 			self.creditsCard.visible = false;
 			self.exitBtn3.visible = false;
 		}
+		
+		//פונקציה - מעבר עכבר על קישור רקע הייצוג בכרטיסיית קרדיטים
+		function cuteTextOver() {
+			stage.cursor = "pointer";
+		}
+		
+		//פונקציה - יציאת מעבר עכבר מקישור רקע הייצוג בכרטיסיית קרדיטים
+		function cuteTextOut() {
+			stage.cursor = "auto";
+		}
+		
+		//פונקציה - לחיצת עכבר על קישור רקע הייצוג בכרטיסיית קרדיטים
+		function cuteTextClick() {
+			window.open("https://www.freepik.com/vectors/cute");
+		}
+		
+		//פונקציה - מעבר עכבר על קישור דמות האדם בכרטיסיית הקרדיטים
+		function pepoleTextOver() {
+			stage.cursor = "pointer";
+		}
+		
+		//פונקציה - יציאת מעבר עכבר מקישור דמות האדם בכרטיסיית קרדיטים
+		function pepoleTextOut() {
+			stage.cursor = "auto";
+		}
+		
+		//פונקציה - לחיצת עכבר על קישור דמות האדם בכרטיסיית קרדיטים
+		function pepoleTextClick() {
+			window.open("https://www.freepik.com/vectors/people");
+		}
+		
+		//פונקציה - מעבר עכבר על קישור אייקונים בכרטיסיית קרדיטים
+		function iconTextOver() {
+			stage.cursor = "pointer";
+		}
+		
+		//פונקציה - יציאת מעבר עכבר מקישור אייקונים בכרטיסיית קרדיטים
+		function iconTextOut() {
+			stage.cursor = "auto";
+		}
+		
+		//פונקציה - לחיצת עכבר על קישור אייקונים בכרטיסיית קרדיטים
+		function iconTextClick() {
+			window.open("https://www.freepik.com/vectors/icon");
+		}
+		
+		//פונקציה - מעבר עכבר על קישור איברים בכרטיסיית קרדיטים
+		function organsTextOver() {
+			stage.cursor = "pointer";
+		}
+		
+		//פונקציה - יציאת מעבר עכבר מקישור איברים בכרטיסיית קרדיטים
+		function organsTextOut() {
+			stage.cursor = "auto";
+		}
+		
+		//פונקציה - לחיצת עכבר על קישור איברים בכרטיסיית קרדיטים
+		function organsTextClick() {
+			window.open("https://www.freepik.com/vectors/heart");
+		}
 	}
 
 	// actions tween:
@@ -3685,26 +3821,26 @@ lib.properties = {
 	opacity: 1.00,
 	webfonts: {},
 	manifest: [
-		{src:"images/back.png?1602414458462", id:"back"},
-		{src:"images/backBlack.png?1602414458462", id:"backBlack"},
-		{src:"images/balasanaA.png?1602414458462", id:"balasanaA"},
-		{src:"images/belly.png?1602414458462", id:"belly"},
-		{src:"images/bellyBlack.png?1602414458462", id:"bellyBlack"},
-		{src:"images/bhujangaA.png?1602414458462", id:"bhujangaA"},
-		{src:"images/januA.png?1602414458462", id:"januA"},
-		{src:"images/marjariasanaA.png?1602414458462", id:"marjariasanaA"},
-		{src:"images/marjariasanaA2.png?1602414458462", id:"marjariasanaA2"},
-		{src:"images/matsyendraA.png?1602414458462", id:"matsyendraA"},
-		{src:"images/pavanaA.png?1602414458462", id:"pavanaA"},
-		{src:"images/prasaritaA.png?1602414458462", id:"prasaritaA"},
-		{src:"images/savasanaA.png?1602414458462", id:"savasanaA"},
-		{src:"images/title.png?1602414458462", id:"title"},
-		{src:"images/uttanasanaA.png?1602414458462", id:"uttanasanaA"},
-		{src:"images/viparitaA.png?1602414458462", id:"viparitaA"},
-		{src:"images/yoga_atlas_1.png?1602414458287", id:"yoga_atlas_1"},
-		{src:"images/yoga_atlas_2.png?1602414458287", id:"yoga_atlas_2"},
-		{src:"images/yoga_atlas_3.png?1602414458287", id:"yoga_atlas_3"},
-		{src:"images/yoga_atlas_4.png?1602414458287", id:"yoga_atlas_4"}
+		{src:"images/back.png?1602419724351", id:"back"},
+		{src:"images/backBlack.png?1602419724351", id:"backBlack"},
+		{src:"images/balasanaA.png?1602419724351", id:"balasanaA"},
+		{src:"images/belly.png?1602419724351", id:"belly"},
+		{src:"images/bellyBlack.png?1602419724351", id:"bellyBlack"},
+		{src:"images/bhujangaA.png?1602419724351", id:"bhujangaA"},
+		{src:"images/januA.png?1602419724351", id:"januA"},
+		{src:"images/marjariasanaA.png?1602419724351", id:"marjariasanaA"},
+		{src:"images/marjariasanaA2.png?1602419724351", id:"marjariasanaA2"},
+		{src:"images/matsyendraA.png?1602419724351", id:"matsyendraA"},
+		{src:"images/pavanaA.png?1602419724351", id:"pavanaA"},
+		{src:"images/prasaritaA.png?1602419724351", id:"prasaritaA"},
+		{src:"images/savasanaA.png?1602419724351", id:"savasanaA"},
+		{src:"images/title.png?1602419724351", id:"title"},
+		{src:"images/uttanasanaA.png?1602419724351", id:"uttanasanaA"},
+		{src:"images/viparitaA.png?1602419724351", id:"viparitaA"},
+		{src:"images/yoga_atlas_1.png?1602419724240", id:"yoga_atlas_1"},
+		{src:"images/yoga_atlas_2.png?1602419724240", id:"yoga_atlas_2"},
+		{src:"images/yoga_atlas_3.png?1602419724240", id:"yoga_atlas_3"},
+		{src:"images/yoga_atlas_4.png?1602419724240", id:"yoga_atlas_4"}
 	],
 	preloads: []
 };
